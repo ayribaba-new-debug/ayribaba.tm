@@ -2,11 +2,11 @@
   "name": "ayribaba-backend",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nodemon src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "prisma:generate": "prisma generate"
-  },
+  "dev": "nodemon src/index.ts",
+  "build": "tsc",
+  "start": "node dist/index.js",
+  "prisma:generate": "prisma generate"
+},
   "dependencies": {
     "express": "^4.19.2",
     "cors": "^2.8.5",
